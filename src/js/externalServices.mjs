@@ -9,3 +9,10 @@ export async function getEventsBySearchTerm(searchTerm) {
   });
   return events;
 }
+
+export async function getEventById(id) {
+  const response = await fetch("/json/events.json");
+  const data = await response.json();
+  const event = data.find((event) => event.id === id);
+  return event;
+}
