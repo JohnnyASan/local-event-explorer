@@ -1,0 +1,877 @@
+[
+  {
+    "id": "evt_001",
+    "name": {
+      "text": "Spring Music Festival",
+      "html": "<p>Spring Music Festival</p>"
+    },
+    "description": {
+      "text": "Celebrate spring with live music from local bands!",
+      "html": "<p>Celebrate spring with live music from local bands!</p>"
+    },
+    "start": {
+      "timezone": "America/New_York",
+      "local": "2025-04-15T14:00:00",
+      "utc": "2025-04-15T18:00:00Z"
+    },
+    "end": {
+      "timezone": "America/New_York",
+      "local": "2025-04-15T22:00:00",
+      "utc": "2025-04-16T02:00:00Z"
+    },
+    "status": "live",
+    "currency": "USD",
+    "online_event": false,
+    "venue_id": "ven_001",
+    "venue": {
+      "name": "City Park",
+      "address": {
+        "address_1": "123 Park Lane",
+        "city": "Springfield",
+        "region": "IL",
+        "postal_code": "62701",
+        "country": "US"
+      }
+    }
+  },
+  {
+    "id": "evt_002",
+    "name": {
+      "text": "Farmers Market Opening Day",
+      "html": "<p>Farmers Market Opening Day</p>"
+    },
+    "description": {
+      "text": "Fresh produce and local crafts",
+      "html": "<p>Fresh produce and local crafts</p>"
+    },
+    "start": {
+      "timezone": "America/Los_Angeles",
+      "local": "2025-05-01T09:00:00",
+      "utc": "2025-05-01T16:00:00Z"
+    },
+    "end": {
+      "timezone": "America/Los_Angeles",
+      "local": "2025-05-01T14:00:00",
+      "utc": "2025-05-01T21:00:00Z"
+    },
+    "status": "live",
+    "currency": "USD",
+    "online_event": false,
+    "venue_id": "ven_002",
+    "venue": {
+      "name": "Downtown Square",
+      "address": {
+        "address_1": "456 Market St",
+        "city": "Portland",
+        "region": "OR",
+        "postal_code": "97201",
+        "country": "US"
+      }
+    }
+  },
+  {
+    "id": "evt_003",
+    "name": {
+      "text": "Tech Meetup: AI Innovations",
+      "html": "<p>Tech Meetup: AI Innovations</p>"
+    },
+    "description": {
+      "text": "Network with tech enthusiasts and learn about AI",
+      "html": "<p>Network with tech enthusiasts and learn about AI</p>"
+    },
+    "start": {
+      "timezone": "America/Chicago",
+      "local": "2025-03-20T18:00:00",
+      "utc": "2025-03-20T23:00:00Z"
+    },
+    "end": {
+      "timezone": "America/Chicago",
+      "local": "2025-03-20T21:00:00",
+      "utc": "2025-03-21T02:00:00Z"
+    },
+    "status": "live",
+    "currency": "USD",
+    "online_event": false,
+    "venue_id": "ven_003",
+    "venue": {
+      "name": "Tech Hub",
+      "address": {
+        "address_1": "789 Innovation Dr",
+        "city": "Austin",
+        "region": "TX",
+        "postal_code": "78701",
+        "country": "US"
+      }
+    }
+  },
+  {
+    "id": "evt_004",
+    "name": {
+      "text": "Yoga in the Park",
+      "html": "<p>Yoga in the Park</p>"
+    },
+    "description": {
+      "text": "Morning yoga session for all levels",
+      "html": "<p>Morning yoga session for all levels</p>"
+    },
+    "start": {
+      "timezone": "America/Denver",
+      "local": "2025-04-10T07:00:00",
+      "utc": "2025-04-10T13:00:00Z"
+    },
+    "end": {
+      "timezone": "America/Denver",
+      "local": "2025-04-10T08:30:00",
+      "utc": "2025-04-10T14:30:00Z"
+    },
+    "status": "live",
+    "currency": "USD",
+    "online_event": false,
+    "venue_id": "ven_004",
+    "venue": {
+      "name": "Mountain View Park",
+      "address": {
+        "address_1": "101 Ridge Rd",
+        "city": "Boulder",
+        "region": "CO",
+        "postal_code": "80301",
+        "country": "US"
+      }
+    }
+  },
+  {
+    "id": "evt_005",
+    "name": {
+      "text": "Food Truck Friday",
+      "html": "<p>Food Truck Friday</p>"
+    },
+    "description": {
+      "text": "Sample cuisine from local food trucks",
+      "html": "<p>Sample cuisine from local food trucks</p>"
+    },
+    "start": {
+      "timezone": "America/New_York",
+      "local": "2025-03-28T17:00:00",
+      "utc": "2025-03-28T21:00:00Z"
+    },
+    "end": {
+      "timezone": "America/New_York",
+      "local": "2025-03-28T21:00:00",
+      "utc": "2025-03-29T01:00:00Z"
+    },
+    "status": "live",
+    "currency": "USD",
+    "online_event": false,
+    "venue_id": "ven_005",
+    "venue": {
+      "name": "Riverfront Plaza",
+      "address": {
+        "address_1": "321 River Rd",
+        "city": "Richmond",
+        "region": "VA",
+        "postal_code": "23219",
+        "country": "US"
+      }
+    }
+  },
+  {
+    "id": "evt_006",
+    "name": {
+      "text": "Art Gallery Opening",
+      "html": "<p>Art Gallery Opening</p>"
+    },
+    "description": {
+      "text": "New exhibit featuring local artists",
+      "html": "<p>New exhibit featuring local artists</p>"
+    },
+    "start": {
+      "timezone": "America/Los_Angeles",
+      "local": "2025-04-05T19:00:00",
+      "utc": "2025-04-06T02:00:00Z"
+    },
+    "end": {
+      "timezone": "America/Los_Angeles",
+      "local": "2025-04-05T22:00:00",
+      "utc": "2025-04-06T05:00:00Z"
+    },
+    "status": "live",
+    "currency": "USD",
+    "online_event": false,
+    "venue_id": "ven_006",
+    "venue": {
+      "name": "Modern Art Space",
+      "address": {
+        "address_1": "654 Gallery Way",
+        "city": "San Francisco",
+        "region": "CA",
+        "postal_code": "94102",
+        "country": "US"
+      }
+    }
+  },
+  {
+    "id": "evt_007",
+    "name": {
+      "text": "Charity 5K Run",
+      "html": "<p>Charity 5K Run</p>"
+    },
+    "description": {
+      "text": "Run to support local animal shelter",
+      "html": "<p>Run to support local animal shelter</p>"
+    },
+    "start": {
+      "timezone": "America/Chicago",
+      "local": "2025-05-10T08:00:00",
+      "utc": "2025-05-10T13:00:00Z"
+    },
+    "end": {
+      "timezone": "America/Chicago",
+      "local": "2025-05-10T11:00:00",
+      "utc": "2025-05-10T16:00:00Z"
+    },
+    "status": "live",
+    "currency": "USD",
+    "online_event": false,
+    "venue_id": "ven_007",
+    "venue": {
+      "name": "Lakefront Trail",
+      "address": {
+        "address_1": "987 Lake Shore Dr",
+        "city": "Chicago",
+        "region": "IL",
+        "postal_code": "60611",
+        "country": "US"
+      }
+    }
+  },
+  {
+    "id": "evt_008",
+    "name": {
+      "text": "Book Club Meeting",
+      "html": "<p>Book Club Meeting</p>"
+    },
+    "description": {
+      "text": "Discussing this month's bestseller",
+      "html": "<p>Discussing this month's bestseller</p>"
+    },
+    "start": {
+      "timezone": "America/New_York",
+      "local": "2025-03-25T19:00:00",
+      "utc": "2025-03-25T23:00:00Z"
+    },
+    "end": {
+      "timezone": "America/New_York",
+      "local": "2025-03-25T21:00:00",
+      "utc": "2025-03-26T01:00:00Z"
+    },
+    "status": "live",
+    "currency": "USD",
+    "online_event": false,
+    "venue_id": "ven_008",
+    "venue": {
+      "name": "City Library",
+      "address": {
+        "address_1": "147 Main St",
+        "city": "Boston",
+        "region": "MA",
+        "postal_code": "02108",
+        "country": "US"
+      }
+    }
+  },
+  {
+    "id": "evt_009",
+    "name": {
+      "text": "Craft Beer Tasting",
+      "html": "<p>Craft Beer Tasting</p>"
+    },
+    "description": {
+      "text": "Sample local brews",
+      "html": "<p>Sample local brews</p>"
+    },
+    "start": {
+      "timezone": "America/Denver",
+      "local": "2025-04-18T18:00:00",
+      "utc": "2025-04-19T00:00:00Z"
+    },
+    "end": {
+      "timezone": "America/Denver",
+      "local": "2025-04-18T21:00:00",
+      "utc": "2025-04-19T03:00:00Z"
+    },
+    "status": "live",
+    "currency": "USD",
+    "online_event": false,
+    "venue_id": "ven_009",
+    "venue": {
+      "name": "Brewery District",
+      "address": {
+        "address_1": "258 Ale Ave",
+        "city": "Denver",
+        "region": "CO",
+        "postal_code": "80202",
+        "country": "US"
+      }
+    }
+  },
+  {
+    "id": "evt_010",
+    "name": {
+      "text": "Outdoor Movie Night",
+      "html": "<p>Outdoor Movie Night</p>"
+    },
+    "description": {
+      "text": "Family-friendly film under the stars",
+      "html": "<p>Family-friendly film under the stars</p>"
+    },
+    "start": {
+      "timezone": "America/Los_Angeles",
+      "local": "2025-05-15T20:00:00",
+      "utc": "2025-05-16T03:00:00Z"
+    },
+    "end": {
+      "timezone": "America/Los_Angeles",
+      "local": "2025-05-15T22:30:00",
+      "utc": "2025-05-16T05:30:00Z"
+    },
+    "status": "live",
+    "currency": "USD",
+    "online_event": false,
+    "venue_id": "ven_010",
+    "venue": {
+      "name": "Community Park",
+      "address": {
+        "address_1": "369 Oak St",
+        "city": "Seattle",
+        "region": "WA",
+        "postal_code": "98101",
+        "country": "US"
+      }
+    }
+  },
+  {
+    "id": "evt_011",
+    "name": {
+      "text": "Cooking Class: Italian Cuisine",
+      "html": "<p>Cooking Class: Italian Cuisine</p>"
+    },
+    "description": {
+      "text": "Learn to make pasta from scratch",
+      "html": "<p>Learn to make pasta from scratch</p>"
+    },
+    "start": {
+      "timezone": "America/New_York",
+      "local": "2025-04-22T18:00:00",
+      "utc": "2025-04-22T22:00:00Z"
+    },
+    "end": {
+      "timezone": "America/New_York",
+      "local": "2025-04-22T20:00:00",
+      "utc": "2025-04-23T00:00:00Z"
+    },
+    "status": "live",
+    "currency": "USD",
+    "online_event": false,
+    "venue_id": "ven_011",
+    "venue": {
+      "name": "Culinary Studio",
+      "address": {
+        "address_1": "741 Chef Ln",
+        "city": "New York",
+        "region": "NY",
+        "postal_code": "10001",
+        "country": "US"
+      }
+    }
+  },
+  {
+    "id": "evt_012",
+    "name": {
+      "text": "Photography Workshop",
+      "html": "<p>Photography Workshop</p>"
+    },
+    "description": {
+      "text": "Improve your photography skills",
+      "html": "<p>Improve your photography skills</p>"
+    },
+    "start": {
+      "timezone": "America/Chicago",
+      "local": "2025-03-30T10:00:00",
+      "utc": "2025-03-30T15:00:00Z"
+    },
+    "end": {
+      "timezone": "America/Chicago",
+      "local": "2025-03-30T14:00:00",
+      "utc": "2025-03-30T19:00:00Z"
+    },
+    "status": "live",
+    "currency": "USD",
+    "online_event": false,
+    "venue_id": "ven_012",
+    "venue": {
+      "name": "Art Center",
+      "address": {
+        "address_1": "852 Canvas Rd",
+        "city": "Minneapolis",
+        "region": "MN",
+        "postal_code": "55401",
+        "country": "US"
+      }
+    }
+  },
+  {
+    "id": "evt_013",
+    "name": {
+      "text": "Jazz Night",
+      "html": "<p>Jazz Night</p>"
+    },
+    "description": {
+      "text": "Live jazz performance",
+      "html": "<p>Live jazz performance</p>"
+    },
+    "start": {
+      "timezone": "America/New_York",
+      "local": "2025-04-12T20:00:00",
+      "utc": "2025-04-13T00:00:00Z"
+    },
+    "end": {
+      "timezone": "America/New_York",
+      "local": "2025-04-12T23:00:00",
+      "utc": "2025-04-13T03:00:00Z"
+    },
+    "status": "live",
+    "currency": "USD",
+    "online_event": false,
+    "venue_id": "ven_013",
+    "venue": {
+      "name": "Blue Note Lounge",
+      "address": {
+        "address_1": "963 Harmony St",
+        "city": "New Orleans",
+        "region": "LA",
+        "postal_code": "70112",
+        "country": "US"
+      }
+    }
+  },
+  {
+    "id": "evt_014",
+    "name": {
+      "text": "Gardening Workshop",
+      "html": "<p>Gardening Workshop</p>"
+    },
+    "description": {
+      "text": "Learn sustainable gardening techniques",
+      "html": "<p>Learn sustainable gardening techniques</p>"
+    },
+    "start": {
+      "timezone": "America/Los_Angeles",
+      "local": "2025-05-05T13:00:00",
+      "utc": "2025-05-05T20:00:00Z"
+    },
+    "end": {
+      "timezone": "America/Los_Angeles",
+      "local": "2025-05-05T15:00:00",
+      "utc": "2025-05-05T22:00:00Z"
+    },
+    "status": "live",
+    "currency": "USD",
+    "online_event": false,
+    "venue_id": "ven_014",
+    "venue": {
+      "name": "Botanical Gardens",
+      "address": {
+        "address_1": "147 Bloom Ave",
+        "city": "San Diego",
+        "region": "CA",
+        "postal_code": "92101",
+        "country": "US"
+      }
+    }
+  },
+  {
+    "id": "evt_015",
+    "name": {
+      "text": "Trivia Night",
+      "html": "<p>Trivia Night</p>"
+    },
+    "description": {
+      "text": "Test your knowledge with friends",
+      "html": "<p>Test your knowledge with friends</p>"
+    },
+    "start": {
+      "timezone": "America/Denver",
+      "local": "2025-03-27T19:00:00",
+      "utc": "2025-03-28T01:00:00Z"
+    },
+    "end": {
+      "timezone": "America/Denver",
+      "local": "2025-03-27T21:00:00",
+      "utc": "2025-03-28T03:00:00Z"
+    },
+    "status": "live",
+    "currency": "USD",
+    "online_event": false,
+    "venue_id": "ven_015",
+    "venue": {
+      "name": "Local Pub",
+      "address": {
+        "address_1": "258 Pint St",
+        "city": "Salt Lake City",
+        "region": "UT",
+        "postal_code": "84101",
+        "country": "US"
+      }
+    }
+  },
+  {
+    "id": "evt_016",
+    "name": {
+      "text": "Wine Tasting Event",
+      "html": "<p>Wine Tasting Event</p>"
+    },
+    "description": {
+      "text": "Sample regional wines",
+      "html": "<p>Sample regional wines</p>"
+    },
+    "start": {
+      "timezone": "America/New_York",
+      "local": "2025-04-28T17:00:00",
+      "utc": "2025-04-28T21:00:00Z"
+    },
+    "end": {
+      "timezone": "America/New_York",
+      "local": "2025-04-28T20:00:00",
+      "utc": "2025-04-29T00:00:00Z"
+    },
+    "status": "live",
+    "currency": "USD",
+    "online_event": false,
+    "venue_id": "ven_016",
+    "venue": {
+      "name": "Vineyard Hall",
+      "address": {
+        "address_1": "369 Grape Rd",
+        "city": "Charlottesville",
+        "region": "VA",
+        "postal_code": "22901",
+        "country": "US"
+      }
+    }
+  },
+  {
+    "id": "evt_017",
+    "name": {
+      "text": "Science Fair",
+      "html": "<p>Science Fair</p>"
+    },
+    "description": {
+      "text": "Student science projects on display",
+      "html": "<p>Student science projects on display</p>"
+    },
+    "start": {
+      "timezone": "America/Chicago",
+      "local": "2025-05-03T09:00:00",
+      "utc": "2025-05-03T14:00:00Z"
+    },
+    "end": {
+      "timezone": "America/Chicago",
+      "local": "2025-05-03T15:00:00",
+      "utc": "2025-05-03T20:00:00Z"
+    },
+    "status": "live",
+    "currency": "USD",
+    "online_event": false,
+    "venue_id": "ven_017",
+    "venue": {
+      "name": "Community Center",
+      "address": {
+        "address_1": "741 Science Dr",
+        "city": "St. Louis",
+        "region": "MO",
+        "postal_code": "63101",
+        "country": "US"
+      }
+    }
+  },
+  {
+    "id": "evt_018",
+    "name": {
+      "text": "Comedy Night",
+      "html": "<p>Comedy Night</p>"
+    },
+    "description": {
+      "text": "Local comedians perform stand-up",
+      "html": "<p>Local comedians perform stand-up</p>"
+    },
+    "start": {
+      "timezone": "America/Los_Angeles",
+      "local": "2025-04-19T20:00:00",
+      "utc": "2025-04-20T03:00:00Z"
+    },
+    "end": {
+      "timezone": "America/Los_Angeles",
+      "local": "2025-04-19T22:00:00",
+      "utc": "2025-04-20T05:00:00Z"
+    },
+    "status": "live",
+    "currency": "USD",
+    "online_event": false,
+    "venue_id": "ven_018",
+    "venue": {
+      "name": "Laugh Factory",
+      "address": {
+        "address_1": "852 Joke St",
+        "city": "Los Angeles",
+        "region": "CA",
+        "postal_code": "90001",
+        "country": "US"
+      }
+    }
+  },
+  {
+    "id": "evt_019",
+    "name": {
+      "text": "Pet Adoption Day",
+      "html": "<p>Pet Adoption Day</p>"
+    },
+    "description": {
+      "text": "Meet adoptable pets",
+      "html": "<p>Meet adoptable pets</p>"
+    },
+    "start": {
+      "timezone": "America/Denver",
+      "local": "2025-05-12T11:00:00",
+      "utc": "2025-05-12T17:00:00Z"
+    },
+    "end": {
+      "timezone": "America/Denver",
+      "local": "2025-05-12T15:00:00",
+      "utc": "2025-05-12T21:00:00Z"
+    },
+    "status": "live",
+    "currency": "USD",
+    "online_event": false,
+    "venue_id": "ven_019",
+    "venue": {
+      "name": "Animal Shelter",
+      "address": {
+        "address_1": "963 Paw Ln",
+        "city": "Phoenix",
+        "region": "AZ",
+        "postal_code": "85001",
+        "country": "US"
+      }
+    }
+  },
+  {
+    "id": "evt_020",
+    "name": {
+      "text": "Dance Workshop",
+      "html": "<p>Dance Workshop</p>"
+    },
+    "description": {
+      "text": "Learn salsa dancing basics",
+      "html": "<p>Learn salsa dancing basics</p>"
+    },
+    "start": {
+      "timezone": "America/New_York",
+      "local": "2025-03-29T15:00:00",
+      "utc": "2025-03-29T19:00:00Z"
+    },
+    "end": {
+      "timezone": "America/New_York",
+      "local": "2025-03-29T17:00:00",
+      "utc": "2025-03-29T21:00:00Z"
+    },
+    "status": "live",
+    "currency": "USD",
+    "online_event": false,
+    "venue_id": "ven_020",
+    "venue": {
+      "name": "Dance Studio",
+      "address": {
+        "address_1": "147 Rhythm Rd",
+        "city": "Miami",
+        "region": "FL",
+        "postal_code": "33101",
+        "country": "US"
+      }
+    }
+  },
+  {
+    "id": "evt_021",
+    "name": {
+      "text": "Local History Tour",
+      "html": "<p>Local History Tour</p>"
+    },
+    "description": {
+      "text": "Guided tour of historic sites",
+      "html": "<p>Guided tour of historic sites</p>"
+    },
+    "start": {
+      "timezone": "America/Chicago",
+      "local": "2025-04-25T14:00:00",
+      "utc": "2025-04-25T19:00:00Z"
+    },
+    "end": {
+      "timezone": "America/Chicago",
+      "local": "2025-04-25T16:00:00",
+      "utc": "2025-04-25T21:00:00Z"
+    },
+    "status": "live",
+    "currency": "USD",
+    "online_event": false,
+    "venue_id": "ven_021",
+    "venue": {
+      "name": "Historic District",
+      "address": {
+        "address_1": "258 Past Ln",
+        "city": "Nashville",
+        "region": "TN",
+        "postal_code": "37201",
+        "country": "US"
+      }
+    }
+  },
+  {
+    "id": "evt_022",
+    "name": {
+      "text": "Karaoke Night",
+      "html": "<p>Karaoke Night</p>"
+    },
+    "description": {
+      "text": "Sing your favorite songs",
+      "html": "<p>Sing your favorite songs</p>"
+    },
+    "start": {
+      "timezone": "America/Los_Angeles",
+      "local": "2025-05-08T19:00:00",
+      "utc": "2025-05-09T02:00:00Z"
+    },
+    "end": {
+      "timezone": "America/Los_Angeles",
+      "local": "2025-05-08T23:00:00",
+      "utc": "2025-05-09T06:00:00Z"
+    },
+    "status": "live",
+    "currency": "USD",
+    "online_event": false,
+    "venue_id": "ven_022",
+    "venue": {
+      "name": "Melody Bar",
+      "address": {
+        "address_1": "369 Tune St",
+        "city": "Portland",
+        "region": "OR",
+        "postal_code": "97201",
+        "country": "US"
+      }
+    }
+  },
+  {
+    "id": "evt_023",
+    "name": {
+      "text": "Flea Market",
+      "html": "<p>Flea Market</p>"
+    },
+    "description": {
+      "text": "Find unique treasures",
+      "html": "<p>Find unique treasures</p>"
+    },
+    "start": {
+      "timezone": "America/Denver",
+      "local": "2025-04-07T08:00:00",
+      "utc": "2025-04-07T14:00:00Z"
+    },
+    "end": {
+      "timezone": "America/Denver",
+      "local": "2025-04-07T15:00:00",
+      "utc": "2025-04-07T21:00:00Z"
+    },
+    "status": "live",
+    "currency": "USD",
+    "online_event": false,
+    "venue_id": "ven_023",
+    "venue": {
+      "name": "Fairgrounds",
+      "address": {
+        "address_1": "741 Bargain Rd",
+        "city": "Boise",
+        "region": "ID",
+        "postal_code": "83701",
+        "country": "US"
+      }
+    }
+  },
+  {
+    "id": "evt_024",
+    "name": {
+      "text": "Poetry Reading",
+      "html": "<p>Poetry Reading</p>"
+    },
+    "description": {
+      "text": "Local poets share their work",
+      "html": "<p>Local poets share their work</p>"
+    },
+    "start": {
+      "timezone": "America/New_York",
+      "local": "2025-03-31T19:00:00",
+      "utc": "2025-03-31T23:00:00Z"
+    },
+    "end": {
+      "timezone": "America/New_York",
+      "local": "2025-03-31T21:00:00",
+      "utc": "2025-04-01T01:00:00Z"
+    },
+    "status": "live",
+    "currency": "USD",
+    "online_event": false,
+    "venue_id": "ven_024",
+    "venue": {
+      "name": "Bookstore Cafe",
+      "address": {
+        "address_1": "852 Verse St",
+        "city": "Philadelphia",
+        "region": "PA",
+        "postal_code": "19101",
+        "country": "US"
+      }
+    }
+  },
+  {
+    "id": "evt_025",
+    "name": {
+      "text": "Bike Ride Meetup",
+      "html": "<p>Bike Ride Meetup</p>"
+    },
+    "description": {
+      "text": "Group ride through scenic trails",
+      "html": "<p>Group ride through scenic trails</p>"
+    },
+    "start": {
+      "timezone": "America/Chicago",
+      "local": "2025-05-20T09:00:00",
+      "utc": "2025-05-20T14:00:00Z"
+    },
+    "end": {
+      "timezone": "America/Chicago",
+      "local": "2025-05-20T12:00:00",
+      "utc": "2025-05-20T17:00:00Z"
+    },
+    "status": "live",
+    "currency": "USD",
+    "online_event": false,
+    "venue_id": "ven_025",
+    "venue": {
+      "name": "Trailhead Park",
+      "address": {
+        "address_1": "963 Cycle Ln",
+        "city": "Madison",
+        "region": "WI",
+        "postal_code": "53701",
+        "country": "US"
+      }
+    }
+  }
+]

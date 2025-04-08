@@ -1,0 +1,259 @@
+:root {
+  --font-body: Arial, Helvetica, sans-serif;
+  --font-headline: Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  /* colors */
+  --primary-color: #ec5638;
+  --secondary-color: #525b0f;
+  --tertiary-color: #a4b8c4;
+  --light-grey: #d0d0d0;
+  --dark-grey: #303030;
+
+  /* sizes */
+  --font-base: 18px;
+  --small-font: 0.8em;
+  --large-font: 1.2em;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: var(--font-base);
+  color: var(--dark-grey);
+}
+img {
+  max-width: 100%;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+.logo {
+  line-height: 60px;
+  width: 245px;
+  overflow: hidden;
+  display: flex;
+  font-size: 30px;
+  text-align: right;
+  font-family: var(--font-headline);
+}
+.logo img {
+  width: 60px;
+  height: 60px;
+}
+.logo a {
+  text-decoration: none;
+  color: var(--font-body);
+}
+.hero {
+  position: relative;
+}
+.hero .logo {
+  position: absolute;
+  left: calc(50% - 60px);
+  bottom: -10px;
+  background-color: white;
+}
+.logo--square {
+  font-size: var(--small-font);
+  width: 110px;
+  height: 80px;
+
+  flex-direction: column;
+  align-items: flex-end;
+  box-shadow: 1px 1px 4px var(--light-grey);
+  justify-content: center;
+  align-items: center;
+  line-height: 1;
+}
+.logo--square img {
+  width: 90px;
+  height: 90px;
+  margin-top: -1.3em;
+}
+.logo--square > div {
+  margin-top: -1.7em;
+}
+/* utility classes */
+.highlight {
+  color: var(--tertiary-color);
+}
+
+button {
+  padding: 0.5em 2em;
+  background-color: var(--secondary-color);
+  color: white;
+  margin: auto;
+  display: block;
+  border: 0;
+  font-size: var(--large-font);
+  cursor: pointer;
+}
+.divider {
+  border-bottom: 2px solid var(--primary-color);
+}
+.title {
+  text-transform: capitalize;
+}
+/* End utility classes */
+
+/* Cart icon styles */
+.saved-events {
+  padding-top: 1em;
+  position: relative;
+  text-align: center;
+}
+
+.saved-events svg {
+  width: 25px;
+}
+.saved-events:hover svg {
+  fill: gray;
+}
+
+/* End cart icon styles */
+
+/* event grid styles */
+.events-grid {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  color: var(--dark-grey);
+  padding-left: 0;
+}
+
+.events-grid > li {
+  width: 150px;
+  /* border: 1px solid var(--light-grey); */
+  padding: 0.5em;
+  margin: 1em;
+}
+.events-grid h2 {
+  margin: 0;
+
+  font-size: 1.2em;
+}
+.events-grid a {
+  text-decoration: none;
+}
+.events-grid a:link,
+.events-grid a:visited {
+  color: var(--dark-grey);
+}
+.events-grid a:hover {
+  text-decoration: underline;
+}
+
+.mission {
+  padding: 0 0.5em;
+  /* margin: 0.5em 0; */
+  line-height: 1.3;
+  max-width: 600px;
+  margin: auto;
+}
+.events {
+  padding: 0.5em;
+}
+.event-list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+}
+.event-list a {
+  text-decoration: none;
+  color: var(--dark-grey);
+}
+
+.list-total {
+  text-align: right;
+}
+.list-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.5em;
+}
+.list-footer > a {
+  /* display: block; */
+  padding: 0.3em 0.5em;
+  background-color: var(--primary-color);
+  text-decoration: none;
+  border-radius: 5px;
+}
+.list-footer a:link,
+.list-footer a:visited {
+  color: var(--dark-grey);
+}
+
+
+/* Styles for event lists */
+.event-card {
+  flex: 1 1 45%;
+  margin: 0.25em;
+  padding: 0.5em;
+  border: 1px solid var(--light-grey);
+  max-width: 250px;
+  text-align: center;
+}
+.event-card h2,
+.event-card h3,
+.event-card p {
+  margin: 0.5em 0;
+}
+
+.card__description {
+  font-size: var(--small-font);
+}
+
+.card__name {
+  font-size: 1em;
+}
+/* End event list card */
+
+.event-detail {
+  padding: 1em;
+  max-width: 500px;
+  margin: auto;
+}
+
+.event-detail img {
+  width: 100%;
+}
+
+/* alert styles */
+.alert {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5em;
+  background-color: var(--primary-color);
+  border: 1px solid darkorange;
+}
+.alert > p {
+  margin: 0;
+}
+
+@media screen and (min-width: 500px) {
+  body {
+    max-width: 1080px;
+    margin: auto;
+  }
+  .mission {
+    font-size: 1.2em;
+  }
+  .cart-card {
+    font-size: inherit;
+    grid-template-columns: 150px auto 15%;
+  }
+}
+
+footer {
+  font-size: var(--small-font);
+  padding: 1em;
+}
