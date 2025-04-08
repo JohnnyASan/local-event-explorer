@@ -191,9 +191,43 @@ button {
   color: var(--dark-grey);
 }
 
+#searchInput {
+  width: 100%;
+  padding: 0.5em;
+  border: 1px solid var(--light-grey);
+  border-radius: 5px;
+  margin-bottom: 1em;
+}
+
+.mission > p {
+  text-align: center;
+}
 
 /* Styles for event lists */
+.card-wrapper {
+  position: relative;
+}
+
+.heart-icon {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.event-card:hover .heart-icon {
+  opacity: 1;
+}
+
+.heart-icon.clicked {
+  fill: #ff0000;
+  opacity: 1;
+}
+
 .event-card {
+  position: relative;
   flex: 1 1 45%;
   margin: 0.25em;
   padding: 0.5em;

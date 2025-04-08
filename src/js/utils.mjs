@@ -13,6 +13,19 @@ export function getLocalStorage(key) {
 export function setLocalStorage(key, data) {
   localStorage.setItem(key, JSON.stringify(data));
 }
+
+export function appendToLocalStorage(key, data) {
+  const oldData = getLocalStorage(key) || [];
+  oldData.push(data);
+  setLocalStorage(key, oldData);
+}
+
+export function removeFromLocalStorage(key, data) {
+  const oldData = getLocalStorage(key) || [];
+  const newData = oldData.filter((item) => item !== data);
+  setLocalStorage(key, newData);
+}
+
 // set a listener for both touchend and click
 export function setClick(selector, callback) {
   qs(selector).addEventListener("touchend", (event) => {
